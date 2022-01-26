@@ -1,0 +1,175 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>HACKATHON</title>
+        <link rel="stylesheet" href="mysecond.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="navbar">
+                
+                 
+                     <div class="menu">
+                      <div class="item">   
+                    
+                        <a href="#" class="item1">HOME</a>
+                        <a href="#" class="item2">SIGNUP</a>
+                        <a href="#" class="item3">HELP</a>
+                        <a href="#" class="item4">LOGIN</a>
+                     
+                     </div>
+                     </div>
+                     <div class="titleof">
+                        <h1>WELCOME TO HACKATHON REGISTRATION</h1>   
+                    </div>
+                     
+                    <div class="reg">
+                        <br>
+                        <form>
+                       <label for="name">1.NAME:</label>
+                       <br>
+                       <br>
+                       <input type="text" id="name" required>
+
+
+                       <label for="college">2.COLLEGE:</label>
+                       <br>
+                       <br>
+                       <input type="text" id="college" required>
+
+
+                       <label for="fname">3.FATHERS NAME:</label>
+                       <br>
+                       <br>
+                       <input type="text" id="fname" required>
+                    
+
+                       <label for="email">4.EMAIL(college id)</label>
+                       <br>
+                       <br>
+                       <input type="text" id="email" required>
+                        
+                       <p>5.PROGRAMMING LANGUAGES KNOWN</p>
+                       <br>
+                       <br>
+                       <input type="checkbox" id="pro" >
+                       <label for="pro">C C++</label><br>
+                       <input type="checkbox" id="JAVA">
+                       <label for="JAVA">JAVA</label>
+                       <BR>
+                       <input type="checkbox" id="python">
+                       <label for="python">PYTHON</label>
+                        <BR>
+                            <BR>
+                        <p>6.GENDER</p>
+                       <input type="radio" id="m" name="gen">
+                       <label for="m">MALE</label><BR>
+                        <input type="radio" id="f" name="gen">
+                       <label for="f">FEMALE</label>
+                       <br>
+                       <br>
+                       <p>7.FIELD OF STUDY</p>
+                       <BR>
+                       <input type="radio" id="dep1">
+                       <label for="dep">ENGINEERING</label><br>
+                       <input type="radio" id="dep2">
+                       <label for="dep2">ARTS&SCIENCE</label><br>
+                       <input type="radio" id="dep3">
+                       <label for="dep3">Other</label><br>
+                       <br>
+                    
+                       <button onclick="navt()">NEXT</button>
+                       <br>
+                       <br>
+                       <button type="reset">RESET</button>
+                       </form>
+                    </div>
+                
+
+                    <div class="reg3">
+                        <form>
+                       <p>8.DEPARTMENT</p>
+                        
+                       <br>
+                        <BR>
+                       <input type="radio" id="dec1" name="dec">
+                       <label for="dec1">COMPUTER SCIENCE</label><br>
+
+                       <input type="radio" id="dec2" name="dec">
+                       <label for="dec2">MECHANICAL</label><br>
+
+                       <input type="radio" id="dec3" name="dec">
+                       <label for="dec3">EEE</label><br>
+
+                       <input type="radio" id="dec4" name="dec">
+                       <label for="dec4">ECM</label><br>
+
+
+                       <input type="radio" id="dec5" name="dec">
+                       <label for="dec5">Other</label><br>
+
+                       <br>
+
+                       <p>9.EVENTS YOU ARE INTERESTED TO PARTICIPATE</p>
+                         <br>
+                         <br>
+                        <input type="checkbox" id="e1">
+                        <label for="e1">CAR WARS</label><br>
+
+                        <input type="checkbox" id="e2">
+                        <label for="e2">MECHATHLON</label><br>
+
+                        <input type="checkbox" id="e3">
+                        <label for="e3">NEED FOR SPEED</label><br>
+
+                        <input type="checkbox" id="e4">
+                        <label for="e4">CODE WARS</label><br>
+                        
+                        <input type="checkbox" id="e5">
+                        <label for="e5">WEB CHALLENGE</label><br>
+
+
+                        <input type="checkbox" id="e1">
+                        <label for="e1">APP DEV</label><BR>
+                            <br>
+
+                            <p>10.TELL US ABOUT YOU</p>
+                            <textarea id="w3review" name="w3review" rows="6" cols="50"></textarea>
+
+                            <br>
+
+                            <BR>
+                               <label> SELECT THE MOST SUITABLE DATE FOR YOU</label>
+                               <BR>
+
+                                <select name="SELECT THE MOST SUITABLE DATE FOR YOU" id="d"> SELECT THE DATE
+                                    <option value="d1">12-06-2022</option>
+                                    <option value="d2">13-06-2022</option>
+                                    <option value="d3">14-06-2022</option>
+                                    <option value="d4">15-06-2022</option>
+                                  </select>
+                                  <br>
+                                  <br>
+                            <input type="submit" value="SUBMIT" name="SUBMIT">
+
+                            <br>
+                            <br>
+                            <br>
+
+                            
+                            <input type="reset" value="RESET" name="RESET">
+                          </form> 
+                    </div>
+
+            </div>
+        </div>
+
+        <script>
+          const navt=() =>
+          {
+            document.body.classList.toggle("reg-open");
+          }
+        </script>
+    </body>
+</html>
